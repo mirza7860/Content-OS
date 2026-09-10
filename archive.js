@@ -2,8 +2,8 @@ const days = [
   {
     slug: '2026-09-10',
     date: 'SEP 10, 2026',
-    title: 'Agents are becoming the story.',
-    summary: 'AI research, agent security, personal computers for agents, model economics, and the strongest content opportunities from today.'
+    title: 'One story can become a content mine.',
+    summary: 'Fresh AI developments expanded into a broad angle matrix: builds, experiments, tutorials, benchmarks, business opportunities, and first-hand evidence.'
   }
 ];
 
