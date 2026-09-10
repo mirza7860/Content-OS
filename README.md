@@ -1,22 +1,48 @@
 # Content-OS
 
-A content opportunity engine that turns what is happening in AI into original content, experiments, and ideas worth pursuing.
+A content opportunity engine: turn what is happening in AI into original content, experiments, and ideas worth pursuing.
 
-## Interface
-
-Content-OS is designed for GitHub Pages. The production entry point is the root `index.html`.
-
-The main page is the daily archive: it shows every available brief by date. Each brief lives at `days/YYYY-MM-DD.html` and links back to the main archive.
-
-## Core loop
+## Vision
 
 `Research → Stories → Deep Analysis → Angle Expansion → Content → Performance → Feedback → Better Angle Selection`
 
-The system should help a creator understand important developments, find multiple genuinely different angles in one story, take action where useful, and learn from what performs.
+The goal is not to become another AI-news aggregator. The system should help a creator understand important developments, find multiple genuinely different angles in a single story, take action where useful, and learn from what performs.
+
+## Interface
+
+The repository is designed for GitHub Pages. `index.html` is the root page and acts as the daily-brief archive. Individual daily briefs live under `days/` as permanent HTML pages.
+
+The feedback loop is deliberately separated under `feedback/`. Its root `feedback/index.html` is the feedback archive, and individual learning records live under `feedback/days/`.
+
+## Feedback Loop
+
+Feedback is part of the product's learning system, not just a notes folder. After publishing content, create a dated HTML feedback entry using `feedback/TEMPLATE.html` and add it to the feedback archive.
+
+Each entry should record what was published, the source story, the angle, platform and format, quantitative results, what you believe caused the result, what worked, what did not work, what should be kept or changed, and what Content-OS should learn from the result.
+
+Use this filename convention:
+
+`feedback/days/YYYY-MM-DD-short-description.html`
+
+Do not overwrite historical entries. Each publishing result or learning event gets its own page. After creating the page, add its metadata to `feedback/archive.js` so it appears in the feedback index.
+
+### Feedback rules
+
+Be honest about weak results. Do not rewrite history to make a post look successful.
+
+Separate **what happened** from **why you think it happened**. Metrics are evidence; interpretation is a hypothesis.
+
+Keep one entry focused on one publishing result or one clear learning event.
+
+Prefer repeated patterns over conclusions from a single post. Content-OS should learn from accumulated evidence rather than overfitting to one unusually good or bad result.
+
+Record qualitative feedback even when metrics are unavailable. The creator's judgment about the hook, angle, originality, timing, and audience response is valuable training signal.
+
+Keep old entries immutable whenever possible. If a correction is necessary, make the correction explicit rather than silently changing the historical record.
 
 ## Scheduled Action Setup
 
-The scheduled research action is intentionally **not created by repository setup**. This section is the reproducible specification for configuring it later.
+The scheduled research action is intentionally **not created by repository setup**. This is the reproducible specification for configuring it.
 
 **Schedule:** Every day at **10:00 AM IST (UTC+5:30)**.
 
@@ -56,10 +82,10 @@ If a story does not provide a strong content opportunity, explicitly say so rath
 Finally, rank the best opportunities by expected value and explain briefly why the top opportunities are worth pursuing now.
 ```
 
-## Feedback loop
+## Project status
 
-Capture topic, source story, angle, hook, format, platform, reach/impressions, engagement, comments, shares, saves, profile visits, follower growth, and the creator's own assessment of why the content worked or failed. Use repeated evidence to improve future opportunity ranking rather than overfitting to short-term noise.
+Early foundation. UI can be refined independently. The feedback archive and template are now part of the repository structure.
 
-## Deployment
+## License
 
-Enable **GitHub Pages → Deploy from a branch → `main` → `/ (root)`**. No build step is required for the current static interface.
+See [LICENSE](LICENSE).
