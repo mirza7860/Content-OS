@@ -14,18 +14,19 @@
       <p class="intro">A running record of what worked, what failed, and what Content-OS should learn from it.</p>
     </header>
     <section class="feedback-section">
-      <div class="section-head"><div><p class="kicker">ARCHIVE</p><h2>Feedback entries</h2></div><span class="count">1 entry</span></div>
-      <a class="feedback-card" href="days/2026-09-10.html"><div><span class="date">SEP 10, 2026</span><strong>Initial feedback loop test</strong><small>Example entry showing the feedback format.</small></div><span>↗</span></a>
+      <div class="section-head"><div><p class="kicker">ARCHIVE</p><h2>Feedback entries</h2></div><span id="count" class="count"></span></div>
+      <div id="feedback" class="archive"></div>
     </section>
     <section class="rules">
       <p class="kicker">RULES</p>
       <h2>How to add feedback</h2>
-      <p>Every feedback entry gets its own HTML page under <code>feedback/days/</code>. Use the template at <code>feedback/TEMPLATE.html</code>, replace the placeholders, then commit the new page.</p>
-      <p>Keep one entry focused on one publishing result or learning event. Record the content, the angle, the format, the result, your judgment, what you think caused the result, and what Content-OS should change or preserve.</p>
-      <p>Use a date-based filename: <code>YYYY-MM-DD-short-description.html</code>. Do not overwrite old feedback entries. The archive is the historical record.</p>
-      <p>After adding a page, add the same entry to <code>feedback/archive.js</code> so it appears on this index.</p>
+      <p>Every feedback entry gets its own HTML page under <code>feedback/days/</code>. Use <code>feedback/TEMPLATE.html</code>, replace the placeholders, then commit the new page.</p>
+      <p>Keep one entry focused on one publishing result or learning event. Record what was published, the source story, angle, platform, format, results, your interpretation, what worked, what failed, and what Content-OS should learn.</p>
+      <p>Use <code>YYYY-MM-DD-short-description.html</code> for filenames. Never overwrite historical entries unless correcting an explicit error.</p>
+      <p>After creating the page, add its metadata to <code>feedback/archive.js</code>. This automatically makes it appear in this index.</p>
     </section>
     <footer><span>Content → Performance → Learning</span><a class="back" href="../">Back to Content-OS</a></footer>
   </main>
+  <script src="archive.js"></script>
 </body>
 </html>
