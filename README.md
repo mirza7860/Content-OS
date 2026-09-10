@@ -1,36 +1,22 @@
 # Content-OS
 
-A content opportunity engine: turn what is happening in AI into original content, experiments, and ideas worth pursuing.
+A content opportunity engine that turns what is happening in AI into original content, experiments, and ideas worth pursuing.
 
-## Vision
+## Interface
 
-Content-OS is designed around a compounding loop:
+Content-OS is designed for GitHub Pages. The production entry point is the root `index.html`.
+
+The main page is the daily archive: it shows every available brief by date. Each brief lives at `days/YYYY-MM-DD.html` and links back to the main archive.
+
+## Core loop
 
 `Research → Stories → Deep Analysis → Angle Expansion → Content → Performance → Feedback → Better Angle Selection`
 
-The goal is not to become another AI-news aggregator. The system should help a creator understand important developments, find multiple genuinely different angles in a single story, take action where useful, and learn from what performs.
-
-## Core capabilities
-
-### Intelligence
-
-Find and synthesize the latest meaningful AI developments with strong emphasis on freshness, accuracy, primary sources, and signal-to-noise ratio.
-
-### Angle engine
-
-One important story should expand into multiple possible interpretations: why it matters, what people are missing, contrarian takes, technical implications, builder experiments, business opportunities, practical applications, comparisons, predictions, personal-brand angles, debates, and storytelling angles.
-
-### Action-first content
-
-When appropriate, suggest something small the creator can actually build or test. First-hand experience should be preferred over generic commentary.
-
-### Feedback loop
-
-Capture publishing outcomes and creator feedback so the system can learn which topics, angles, hooks, formats, and experiments consistently work. Metrics explain what happened; qualitative feedback helps explain why.
+The system should help a creator understand important developments, find multiple genuinely different angles in one story, take action where useful, and learn from what performs.
 
 ## Scheduled Action Setup
 
-The scheduled research action is intentionally **not created by the repository setup**. This section is the reproducible specification for anyone who needs to configure it.
+The scheduled research action is intentionally **not created by repository setup**. This section is the reproducible specification for configuring it later.
 
 **Schedule:** Every day at **10:00 AM IST (UTC+5:30)**.
 
@@ -70,14 +56,10 @@ If a story does not provide a strong content opportunity, explicitly say so rath
 Finally, rank the best opportunities by expected value and explain briefly why the top opportunities are worth pursuing now.
 ```
 
-### Feedback-driven evolution
+## Feedback loop
 
-As publishing history accumulates, incorporate learned patterns into future opportunity ranking. Do not overfit to short-term noise; prefer patterns supported by repeated results and creator feedback.
+Capture topic, source story, angle, hook, format, platform, reach/impressions, engagement, comments, shares, saves, profile visits, follower growth, and the creator's own assessment of why the content worked or failed. Use repeated evidence to improve future opportunity ranking rather than overfitting to short-term noise.
 
-## Project status
+## Deployment
 
-Early foundation. UI and implementation layers are intentionally being developed separately.
-
-## License
-
-See [LICENSE](LICENSE).
+Enable **GitHub Pages → Deploy from a branch → `main` → `/ (root)`**. No build step is required for the current static interface.
