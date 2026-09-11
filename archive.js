@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-11',
+    date: 'SEP 11, 2026',
+    title: 'Agents are moving into real workflows.',
+    summary: 'DeepSeek inference economics, OpenAI agent infrastructure and data agents, vertical AI, agent safety, and India’s emerging agent commerce stack.'
+  },
+  {
     slug: '2026-09-10',
     date: 'SEP 10, 2026',
     title: 'One story can become a content mine.',
