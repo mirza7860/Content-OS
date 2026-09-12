@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-12',
+    date: 'SEP 12, 2026',
+    title: 'Agents are becoming an enterprise runtime.',
+    summary: 'Long-horizon agents, enterprise AI control planes, managed retrieval, inference cache locality, and the strongest build and experiment opportunities from the window.'
+  },
+  {
     slug: '2026-09-11',
     date: 'SEP 11, 2026',
     title: 'Agents are moving into real workflows.',
