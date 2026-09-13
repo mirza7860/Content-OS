@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-13',
+    date: 'SEP 13, 2026',
+    title: 'AI is starting to debate its own speed.',
+    summary: 'Frontier pacing, independent evaluators, long-horizon enterprise agents, AI control planes, and the strongest build and audit opportunities from the window.'
+  },
+  {
     slug: '2026-09-12',
     date: 'SEP 12, 2026',
     title: 'Agents are becoming an enterprise runtime.',
