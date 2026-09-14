@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-14',
+    date: 'SEP 14, 2026',
+    title: 'The AI race is starting to acquire rules — and capital.',
+    summary: 'Independent AI evaluators, frontier safety verification, Z.AI’s $5B capital raise, and the strongest build, audit, and AI-economics opportunities from the window.'
+  },
+  {
     slug: '2026-09-13',
     date: 'SEP 13, 2026',
     title: 'AI is starting to debate its own speed.',
