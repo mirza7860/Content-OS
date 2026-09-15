@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-15',
+    date: 'SEP 15, 2026',
+    title: 'AI products are becoming systems of rules, context, and action.',
+    summary: 'Microsoft’s model governance draft, Anthropic’s vertical financial workflow, Superhuman’s Fathom acquisition, and the strongest build, experiment, and product angles from the window.'
+  },
+  {
     slug: '2026-09-14',
     date: 'SEP 14, 2026',
     title: 'The AI race is starting to acquire rules — and capital.',
