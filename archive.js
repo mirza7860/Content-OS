@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-16',
+    date: 'SEP 16, 2026',
+    title: 'AI is moving from assistants to accountable actors.',
+    summary: 'Independent evaluation, the first reported AI-agent-linked data breach, Factory’s $5B valuation, and a broad set of build, benchmark, security, and business angles.'
+  },
+  {
     slug: '2026-09-15',
     date: 'SEP 15, 2026',
     title: 'AI products are becoming systems of rules, context, and action.',
