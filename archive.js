@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-17',
+    date: 'SEP 17, 2026',
+    title: 'The agent is escaping the screen.',
+    summary: 'Google Home MCP, enterprise AI-native delivery, Anew Labs’ AI-for-science financing, and flexible AI data centers expanded into build, experiment, security, and business angles.'
+  },
+  {
     slug: '2026-09-16',
     date: 'SEP 16, 2026',
     title: 'AI is moving from assistants to accountable actors.',
