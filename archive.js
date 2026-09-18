@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-18',
+    date: 'SEP 18, 2026',
+    title: 'The agent is becoming the engineering team.',
+    summary: 'Claude Code Projects, Z.ai’s infrastructure self-optimization, life-sciences verification, agent runtime security, human approval protocols, vertical agents, and AI-factory infrastructure expanded into build, benchmark, security, and business angles.'
+  },
+  {
     slug: '2026-09-17',
     date: 'SEP 17, 2026',
     title: 'The agent is escaping the screen.',
