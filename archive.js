@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-09-19',
+    date: 'SEP 19, 2026',
+    title: 'The infrastructure underneath agents is becoming the story.',
+    summary: 'SGLang 0.5.20 adds a major wave of model support; the strict freshness and model-catalog audit excluded several tempting releases whose original timestamps fell outside the window or could not be verified precisely enough.'
+  },
+  {
     slug: '2026-09-18',
     date: 'SEP 18, 2026',
     title: 'The agent is becoming the engineering team.',
