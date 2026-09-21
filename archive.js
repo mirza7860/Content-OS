@@ -2,8 +2,8 @@ const days = [
   {
     slug: '2026-09-21',
     date: 'SEP 21, 2026',
-    title: 'Two releases quietly move the frontier.',
-    summary: 'StepFun Step 5 Preview pushes cheap long-horizon agent intelligence while Qwen-Image-2.1 unifies generation, editing, transparency, and multi-reference workflows; strict timestamp and model-catalog audits rejected several older or unverifiable candidates.'
+    title: 'Open image models are becoming production primitives.',
+    summary: 'Qwen-Image-2.1 unified generation, editing, native transparency and multi-reference workflows; strict timestamp and model-catalog audits rejected Step 5 and other tempting candidates outside the eligible window.'
   },
   {
     slug: '2026-09-19',
