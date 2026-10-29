@@ -1,5 +1,11 @@
 const days = [
   {
+    slug: '2026-10-29',
+    date: 'OCT 29, 2026',
+    title: 'The next coding-model race may be about wasted reasoning, not bigger models.',
+    summary: 'Particle-1 targets token-efficient coding through post-training. The brief prioritizes a reproducible cost-per-successful-task benchmark and records high-signal releases excluded because their exact original event times could not be verified.'
+  },
+  {
     slug: '2026-09-21',
     date: 'SEP 21, 2026',
     title: 'Open image models are becoming production primitives.',
